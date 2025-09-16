@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/D58-ExFaultyCalc/style.css">
+    <title>Javascript - Faulty Calculator</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="row">
+            <h2>
+                Faulty Calculator
+            </h2>
+            <div class="calc">
+                    <input type="number" id="num_1" name="num_1">
+                    <input type="text" id="operator" name="operator" length="1" maxlength="1">
+                    <p id="warn"></p>
+                    <input type="number" id="num_2" name="num_2">
+                    <p id="warnInput"></p>
+                    <span>Result : <span id="result"><input type="text" id="resultBox" disabled></span></span>
+                    <button type="submit" id="calculate" onclick="calcResult()">Calculate</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="/D58-ExFaultyCalc/script.js"></script>
+</body>
+
+</html>
